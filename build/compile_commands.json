@@ -1,0 +1,32 @@
+[
+{
+  "directory": "D:/C++/build",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE   -g -std=gnu++11 -o CMakeFiles\\Gumball.dir\\Gumball.cpp.obj -c D:\\C++\\GoogleTest\\Gumball.cpp",
+  "file": "D:/C++/GoogleTest/Gumball.cpp"
+},
+{
+  "directory": "D:/C++/build/googletest/googlemock",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/gmock.dir/includes_CXX.rsp -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c D:\\C++\\GoogleTest\\googletest\\googlemock\\src\\gmock-all.cc",
+  "file": "D:/C++/GoogleTest/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "D:/C++/build/googletest/googlemock",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/gmock_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c D:\\C++\\GoogleTest\\googletest\\googlemock\\src\\gmock_main.cc",
+  "file": "D:/C++/GoogleTest/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "D:/C++/build/googletest/googletest",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/gtest.dir/includes_CXX.rsp -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c D:\\C++\\GoogleTest\\googletest\\googletest\\src\\gtest-all.cc",
+  "file": "D:/C++/GoogleTest/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "D:/C++/build/googletest/googletest",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/gtest_main.dir/includes_CXX.rsp -g -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++11 -o CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c D:\\C++\\GoogleTest\\googletest\\googletest\\src\\gtest_main.cc",
+  "file": "D:/C++/GoogleTest/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "D:/C++/build/test",
+  "command": "C:\\PROGRA~1\\MINGW-~1\\X86_64~1.0-P\\mingw64\\bin\\G__~1.EXE  @CMakeFiles/ParametterizedTest.dir/includes_CXX.rsp -g -std=gnu++11 -o CMakeFiles\\ParametterizedTest.dir\\ParametterizedTest.cpp.obj -c D:\\C++\\GoogleTest\\test\\ParametterizedTest.cpp",
+  "file": "D:/C++/GoogleTest/test/ParametterizedTest.cpp"
+}
+]

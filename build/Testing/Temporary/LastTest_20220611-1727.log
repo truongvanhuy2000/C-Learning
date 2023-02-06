@@ -1,0 +1,44 @@
+Start testing: Jun 12 00:36 SE Asia Standard Time
+----------------------------------------------------------
+1/1 Testing: ParametterizedTest
+1/1 Test: ParametterizedTest
+Command: "D:/C++/build/test/ParametterizedTest.exe"
+Directory: D:/C++/build/test
+"ParametterizedTest" start time: Jun 12 00:36 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\C++\GoogleTest\googletest\googletest\src\gtest_main.cc
+[==========] Running 3 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 3 tests from PrimeTesting/PrimeNumberParameterTest
+[ RUN      ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/0
+is prime
+[       OK ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/0 (0 ms)
+[ RUN      ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/1
+not prime
+D:\C++\GoogleTest\test\ParametterizedTest.cpp:39: Failure
+Value of: prime->isPrimeNumber(number)
+  Actual: false
+Expected: true
+[  FAILED  ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/1, where GetParam() = 9 (0 ms)
+[ RUN      ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/2
+is prime
+[       OK ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/2 (0 ms)
+[----------] 3 tests from PrimeTesting/PrimeNumberParameterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 3 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 2 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/1, where GetParam() = 9
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.16 sec
+----------------------------------------------------------
+Test Failed.
+"ParametterizedTest" end time: Jun 12 00:36 SE Asia Standard Time
+"ParametterizedTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 12 00:36 SE Asia Standard Time

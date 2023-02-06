@@ -1,0 +1,42 @@
+Start testing: Jun 10 11:32 SE Asia Standard Time
+----------------------------------------------------------
+1/1 Testing: TestFixture
+1/1 Test: TestFixture
+Command: "D:/C++/build/test/TestFixture.exe"
+Directory: D:/C++/build/test
+"TestFixture" start time: Jun 10 11:32 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\C++\GoogleTest\googletest\googletest\src\gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from TestFixture
+[ RUN      ] TestFixture.factorial
+value of x: 10
+[       OK ] TestFixture.factorial (0 ms)
+[ RUN      ] TestFixture.sum
+value of x: 10
+D:\C++\GoogleTest\test\TestFixture.cpp:52: Failure
+Expected equality of these values:
+  result
+    Which is: 55
+  5000
+[  FAILED  ] TestFixture.sum (0 ms)
+[----------] 2 tests from TestFixture (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] TestFixture.sum
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Failed.
+"TestFixture" end time: Jun 10 11:32 SE Asia Standard Time
+"TestFixture" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 10 11:32 SE Asia Standard Time

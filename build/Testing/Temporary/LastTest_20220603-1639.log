@@ -1,0 +1,52 @@
+Start testing: Jun 04 00:28 SE Asia Standard Time
+----------------------------------------------------------
+1/1 Testing: ExampleTest
+1/1 Test: ExampleTest
+Command: "D:/C++/build/test/ExampleTest.exe"
+Directory: D:/C++/build/test
+"ExampleTest" start time: Jun 04 00:28 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\C++\GoogleTest\googletest\googletest\src\gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from ExampleTests
+[ RUN      ] ExampleTests.DemonstrateGtest
+D:\C++\GoogleTest\test\ExampleTest.cpp:4: Failure
+Value of: false
+  Actual: false
+Expected: true
+D:\C++\GoogleTest\test\ExampleTest.cpp:5: Failure
+Value of: false
+  Actual: false
+Expected: true
+D:\C++\GoogleTest\test\ExampleTest.cpp:6: Failure
+Value of: false
+  Actual: false
+Expected: true
+[  FAILED  ] ExampleTests.DemonstrateGtest (0 ms)
+[ RUN      ] ExampleTests.DemonstrateGtest2
+D:\C++\GoogleTest\test\ExampleTest.cpp:11: Failure
+Value of: false
+  Actual: false
+Expected: true
+[  FAILED  ] ExampleTests.DemonstrateGtest2 (0 ms)
+[----------] 2 tests from ExampleTests (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] ExampleTests.DemonstrateGtest
+[  FAILED  ] ExampleTests.DemonstrateGtest2
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.09 sec
+----------------------------------------------------------
+Test Failed.
+"ExampleTest" end time: Jun 04 00:28 SE Asia Standard Time
+"ExampleTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 04 00:28 SE Asia Standard Time

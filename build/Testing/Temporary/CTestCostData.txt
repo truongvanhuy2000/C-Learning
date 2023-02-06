@@ -1,0 +1,9 @@
+ExampleTest 2 0.0715118
+SimpleTest 4 0.0759505
+TestFixture 0 0
+AssertionResult 2 0.110445
+ParametterizedTest 0 0
+Gmock1 9 0.160714
+Gmock2 0 0
+---
+ParametterizedTest

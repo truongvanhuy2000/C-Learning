@@ -1,0 +1,50 @@
+Start testing: Jun 22 00:22 SE Asia Standard Time
+----------------------------------------------------------
+1/1 Testing: ParametterizedTest
+1/1 Test: ParametterizedTest
+Command: "D:/C++/build/test/ParametterizedTest.exe"
+Directory: D:/C++/build/test
+"ParametterizedTest" start time: Jun 22 00:22 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\C++\GoogleTest\googletest\googletest\src\gtest_main.cc
+[==========] Running 5 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 5 tests from PrimeTesting/PrimeNumberParameterTest
+[ RUN      ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/0
+[       OK ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/0 (0 ms)
+[ RUN      ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/1
+[       OK ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/1 (0 ms)
+[ RUN      ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/2
+[       OK ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/2 (0 ms)
+[ RUN      ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/3
+D:\C++\GoogleTest\test\ParametterizedTest.cpp:38: Failure
+Value of: prime->isPrimeNumber(number)
+  Actual: false
+Expected: true
+[  FAILED  ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/3, where GetParam() = 15 (0 ms)
+[ RUN      ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/4
+D:\C++\GoogleTest\test\ParametterizedTest.cpp:38: Failure
+Value of: prime->isPrimeNumber(number)
+  Actual: false
+Expected: true
+[  FAILED  ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/4, where GetParam() = 18 (0 ms)
+[----------] 5 tests from PrimeTesting/PrimeNumberParameterTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 5 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 3 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/3, where GetParam() = 15
+[  FAILED  ] PrimeTesting/PrimeNumberParameterTest.IsPrimeCheck/4, where GetParam() = 18
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.04 sec
+----------------------------------------------------------
+Test Failed.
+"ParametterizedTest" end time: Jun 22 00:22 SE Asia Standard Time
+"ParametterizedTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 22 00:22 SE Asia Standard Time

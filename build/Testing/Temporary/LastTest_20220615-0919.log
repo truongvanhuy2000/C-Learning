@@ -1,0 +1,37 @@
+Start testing: Jun 16 01:02 SE Asia Standard Time
+----------------------------------------------------------
+1/1 Testing: Gmock1
+1/1 Test: Gmock1
+Command: "D:/C++/build/test/Gmock1.exe"
+Directory: D:/C++/build/test
+"Gmock1" start time: Jun 16 01:02 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\C++\GoogleTest\googletest\googletest\src\gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QuackTest
+[ RUN      ] QuackTest.quackSomething
+D:\C++\GoogleTest\test\Gmock1.cpp:16: Failure
+Actual function call count doesn't match EXPECT_CALL(mockQuackable, quack())...
+         Expected: to be called at least 4 times
+           Actual: called once - unsatisfied and active
+[  FAILED  ] QuackTest.quackSomething (0 ms)
+[----------] 1 test from QuackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] QuackTest.quackSomething
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.06 sec
+----------------------------------------------------------
+Test Failed.
+"Gmock1" end time: Jun 16 01:02 SE Asia Standard Time
+"Gmock1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 16 01:02 SE Asia Standard Time

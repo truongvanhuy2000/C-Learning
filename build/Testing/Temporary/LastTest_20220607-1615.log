@@ -1,0 +1,234 @@
+Start testing: Jun 08 01:01 SE Asia Standard Time
+----------------------------------------------------------
+1/1 Testing: TestFixture
+1/1 Test: TestFixture
+Command: "D:/C++/build/test/TestFixture.exe"
+Directory: D:/C++/build/test
+"TestFixture" start time: Jun 08 01:01 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\C++\GoogleTest\googletest\googletest\src\gtest_main.cc
+[==========] Running 2 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 2 tests from TestFixture
+[ RUN      ] TestFixture.testFix0
+value of x: 50
+value of n: 50
+value of n: 49
+value of n: 48
+value of n: 47
+value of n: 46
+value of n: 45
+value of n: 44
+value of n: 43
+value of n: 42
+value of n: 41
+value of n: 40
+value of n: 39
+value of n: 38
+value of n: 37
+value of n: 36
+value of n: 35
+value of n: 34
+value of n: 33
+value of n: 32
+value of n: 31
+value of n: 30
+value of n: 29
+value of n: 28
+value of n: 27
+value of n: 26
+value of n: 25
+value of n: 24
+value of n: 23
+value of n: 22
+value of n: 21
+value of n: 20
+value of n: 19
+value of n: 18
+value of n: 17
+value of n: 16
+value of n: 15
+value of n: 14
+value of n: 13
+value of n: 12
+value of n: 11
+value of n: 10
+value of n: 9
+value of n: 8
+value of n: 7
+value of n: 6
+value of n: 5
+value of n: 4
+value of n: 3
+value of n: 2
+value of n: 1
+value of n: 0
+D:\C++\GoogleTest\test\TestFixture.cpp:35: Failure
+Expected equality of these values:
+  Factorial(getX())
+    Which is: 0
+  5000
+value of x: 20
+value of n: 20
+value of n: 19
+value of n: 18
+value of n: 17
+value of n: 16
+value of n: 15
+value of n: 14
+value of n: 13
+value of n: 12
+value of n: 11
+value of n: 10
+value of n: 9
+value of n: 8
+value of n: 7
+value of n: 6
+value of n: 5
+value of n: 4
+value of n: 3
+value of n: 2
+value of n: 1
+value of n: 0
+D:\C++\GoogleTest\test\TestFixture.cpp:37: Failure
+Expected equality of these values:
+  Factorial(getX())
+    Which is: -2102132736
+  5000
+[  FAILED  ] TestFixture.testFix0 (0 ms)
+[ RUN      ] TestFixture.testFix1
+value of x: 50
+value of n: 50
+value of n: 49
+value of n: 48
+value of n: 47
+value of n: 46
+value of n: 45
+value of n: 44
+value of n: 43
+value of n: 42
+value of n: 41
+value of n: 40
+value of n: 39
+value of n: 38
+value of n: 37
+value of n: 36
+value of n: 35
+value of n: 34
+value of n: 33
+value of n: 32
+value of n: 31
+value of n: 30
+value of n: 29
+value of n: 28
+value of n: 27
+value of n: 26
+value of n: 25
+value of n: 24
+value of n: 23
+value of n: 22
+value of n: 21
+value of n: 20
+value of n: 19
+value of n: 18
+value of n: 17
+value of n: 16
+value of n: 15
+value of n: 14
+value of n: 13
+value of n: 12
+value of n: 11
+value of n: 10
+value of n: 9
+value of n: 8
+value of n: 7
+value of n: 6
+value of n: 5
+value of n: 4
+value of n: 3
+value of n: 2
+value of n: 1
+value of n: 0
+D:\C++\GoogleTest\test\TestFixture.cpp:41: Failure
+Expected equality of these values:
+  Factorial(getX())
+    Which is: 0
+  5000
+value of x: 50
+value of n: 50
+value of n: 49
+value of n: 48
+value of n: 47
+value of n: 46
+value of n: 45
+value of n: 44
+value of n: 43
+value of n: 42
+value of n: 41
+value of n: 40
+value of n: 39
+value of n: 38
+value of n: 37
+value of n: 36
+value of n: 35
+value of n: 34
+value of n: 33
+value of n: 32
+value of n: 31
+value of n: 30
+value of n: 29
+value of n: 28
+value of n: 27
+value of n: 26
+value of n: 25
+value of n: 24
+value of n: 23
+value of n: 22
+value of n: 21
+value of n: 20
+value of n: 19
+value of n: 18
+value of n: 17
+value of n: 16
+value of n: 15
+value of n: 14
+value of n: 13
+value of n: 12
+value of n: 11
+value of n: 10
+value of n: 9
+value of n: 8
+value of n: 7
+value of n: 6
+value of n: 5
+value of n: 4
+value of n: 3
+value of n: 2
+value of n: 1
+value of n: 0
+D:\C++\GoogleTest\test\TestFixture.cpp:42: Failure
+Expected equality of these values:
+  Factorial(getX())
+    Which is: 0
+  5000
+[  FAILED  ] TestFixture.testFix1 (0 ms)
+[----------] 2 tests from TestFixture (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 2 tests from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 2 tests, listed below:
+[  FAILED  ] TestFixture.testFix0
+[  FAILED  ] TestFixture.testFix1
+
+ 2 FAILED TESTS
+<end of output>
+Test time =   0.05 sec
+----------------------------------------------------------
+Test Failed.
+"TestFixture" end time: Jun 08 01:01 SE Asia Standard Time
+"TestFixture" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 08 01:01 SE Asia Standard Time

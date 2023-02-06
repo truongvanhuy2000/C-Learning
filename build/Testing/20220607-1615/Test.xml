@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="Win32-mingw32-make"
+	BuildStamp="20220607-1615-Experimental"
+	Name="TruongVanHuy"
+	Generator="ctest-3.23.2"
+	CompilerName="C:/Program Files/mingw-w64/x86_64-8.1.0-posix-seh-rt_v6-rev0/mingw64/bin/g++.exe"
+	CompilerVersion="8.1.0"
+	OSName="Windows"
+	Hostname="TruongVanHuy"
+	OSRelease=" Personal"
+	OSVersion=" (Build 18363)"
+	OSPlatform="AMD64"
+	Is64Bits="1"
+	VendorString="GenuineIntel"
+	VendorID="Intel Corporation"
+	FamilyID="6"
+	ModelID="14"
+	ProcessorCacheSize="-1"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="4"
+	TotalVirtualMemory="16770"
+	TotalPhysicalMemory="8066"
+	LogicalProcessorsPerPhysical="2"
+	ProcessorClockFrequency="1800"
+	>
+	<Testing>
+		<StartDateTime>Jun 08 01:01 SE Asia Standard Time</StartDateTime>
+		<StartTestTime>1654624912</StartTestTime>
+		<TestList>
+			<Test>./test/TestFixture</Test>
+		</TestList>
+		<Test Status="failed">
+			<Name>TestFixture</Name>
+			<Path>./test</Path>
+			<FullName>./test/TestFixture</FullName>
+			<FullCommandLine>D:\C++\build\test\TestFixture.exe</FullCommandLine>
+			<Results>
+				<NamedMeasurement type="text/string" name="Exit Code">
+					<Value>Failed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Exit Value">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Execution Time">
+					<Value>0.0451835</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="numeric/double" name="Processors">
+					<Value>1</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Completion Status">
+					<Value>Completed</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Command Line">
+					<Value>D:\C++\build\test\TestFixture.exe</Value>
+				</NamedMeasurement>
+				<NamedMeasurement type="text/string" name="Environment">
+					<Value>#CTEST_RESOURCE_GROUP_COUNT=</Value>
+				</NamedMeasurement>
+				<Measurement>
+					<Value encoding="base64" compression="gzip">eJztl19r2zAUxd/1Ke5jTBdjScmyGvZQ1rQMxhhJxgZJGK6rOgJFymy5zb59/SeEnJSQPrR7sp508NXVT7o+sjUprdU2o3WibS+gh9yt6TpefLm4WNw6lxk1U4VfZE3XH3WLPF1kde9PPTpMUzb/vG9LmuxSC6pjijY3bwQVpfYqZPP+vi3p1ri7xLTPlX3UubNrZatY5fvl5igYktaMN3rry1yxOU1+fqemLQ8fhL7tR+wxMaUi90DbmIYH0r6Qg0uUn1COUH5EOUQ5QClRCpQcJVJJpJJIJZFKIpVEKolUEqkkUkmkkkglkEoglUAqgVQCqQRSCaQSSCWQSiAVRyqOVBypOFJxpOJIxZGKIxVHKo5UCIVMiIRER68UlgO3AacHFbGXBm/8fOiWdLOJ5TCmm0Sb2lbj7UalXt2T+lsmRvt/dTK/UoWiJncRM6qCU+9ynZhepvzvXhCw2oa/VjpdkS7qmamyWIQWPKpYV8A3LODojQvYFzwSXIpRdazsSjmvRl19/Ta+PnXeUi+idRGcPZg5vBXdwdwdzJ2vT/h6wP/HwdxZsLNgZ8FTFhTvZcFzH1S+/6C+5j7UBpN3PjEBe92Fy6sk79+7J4v3uZP3OMoTG+JE1SJ+XE2n7SKidmCIS9ul+0BGF/Xm3SnjnuLz/xPnN4ixKvkuZDaezqbsGf75g/g=</Value>
+				</Measurement>
+			</Results>
+		</Test>
+		<EndDateTime>Jun 08 01:01 SE Asia Standard Time</EndDateTime>
+		<EndTestTime>1654624912</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

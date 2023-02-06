@@ -1,0 +1,43 @@
+Start testing: Jun 17 10:37 SE Asia Standard Time
+----------------------------------------------------------
+1/1 Testing: Gmock1
+1/1 Test: Gmock1
+Command: "D:/C++/build/test/Gmock1.exe"
+Directory: D:/C++/build/test
+"Gmock1" start time: Jun 17 10:37 SE Asia Standard Time
+Output:
+----------------------------------------------------------
+Running main() from D:\C++\GoogleTest\googletest\googletest\src\gtest_main.cc
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from QuackTest
+[ RUN      ] QuackTest.quackSomething
+
+GMOCK WARNING:
+Uninteresting mock function call - returning default value.
+    Function call: sumOfPrimeNumber(10)
+          Returns: 0
+NOTE: You can safely ignore the above warning unless this call should not happen.  Do not suppress it by blindly adding an EXPECT_CALL() if you don't mean to enforce the call.  See https://github.com/google/googletest/blob/master/docs/gmock_cook_book.md#knowing-when-to-expect for details.
+D:\C++\GoogleTest\test\Gmock1.cpp:27: Failure
+Actual function call count doesn't match EXPECT_CALL(mockPrime, isPrimeNumber(_))...
+         Expected: to be called at least 5 times
+           Actual: never called - unsatisfied and active
+[  FAILED  ] QuackTest.quackSomething (0 ms)
+[----------] 1 test from QuackTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 0 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] QuackTest.quackSomething
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.07 sec
+----------------------------------------------------------
+Test Failed.
+"Gmock1" end time: Jun 17 10:37 SE Asia Standard Time
+"Gmock1" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Jun 17 10:37 SE Asia Standard Time
